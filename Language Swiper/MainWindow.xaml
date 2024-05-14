@@ -1,0 +1,13 @@
+﻿<Window x:Class="Language_Swiper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Language_Swiper"
+        mc:Ignorable="d"
+        Title="Select Mode" Height="200" Width="200" x:Name="Wd" Visibility="Hidden">
+    <Grid>
+        <ComboBox x:Name="cbox" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.538,-0.919"/>
+
+    </Grid>
+</Window>
